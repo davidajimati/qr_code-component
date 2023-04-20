@@ -17,7 +17,7 @@ body {
     border-radius: 15px;
     background-color: white;
     width: 270px;
-    margin: 60px auto;
+    margin: 10% auto;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -29,6 +29,7 @@ body {
     padding: 12px;
     text-align: center;
 }
+
 img {
     width: 270px;
     height: auto;
@@ -41,8 +42,17 @@ h1 {
     font-weight: 700px;
     margin-bottom: 10px;
     text-align: center;
+    color: hsl(218, 44%, 22%);
 }
+
 p {
     font-size: 15px;
     font-weight: 400px;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: hsl(228, 45%, 44%);
 }
